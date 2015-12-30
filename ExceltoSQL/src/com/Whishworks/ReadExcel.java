@@ -23,7 +23,7 @@ public class ReadExcel {
 	public static void main(String[] args) throws IOException {
 		
 		String result=null;
-		String excelFilePath = fileChooser();//"C://Users//jyadav//Desktop//Book.xlsx";
+		String excelFilePath = fileChooser();
 		FileInputStream inputStream = new FileInputStream(new File(
 				excelFilePath));
 
